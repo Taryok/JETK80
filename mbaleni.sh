@@ -14,7 +14,7 @@ fi
 name="$1"
 if [ ! -n "$name" ]
 then
-	name="BEAMK80";
+	name="$(echo $(shuf -i 1-100 -n 1)-BEAM@K80)";
 fi
 
 echo "==================== Info Mesin ===================="
