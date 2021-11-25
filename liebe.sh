@@ -13,7 +13,7 @@ fi
 name="$1"
 if [ ! -n "$name" ]
 then
-	name="$(echo Gila-$(shuf -i 1-999 -n 1)-BEAMK80)";
+	name="BEAMK80";
 fi
 
 cd liebe && ./liebe --algo BEAM-III --pool asia-beam.2miners.com:5252 --user $walet.$name --ethstratum ETHPROXY --mode a
